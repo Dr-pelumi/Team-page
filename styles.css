@@ -9,7 +9,7 @@ body{
 }
 section{
    width: 90%;
-   height: 100vh;
+   /* height: 100vh; */
    padding: 70px 20px;
    margin: 20px 30px;
    /* background-color: black; */
@@ -70,4 +70,91 @@ section .profile .profile-info{
 section .profile .profile-info h3{
    font-size: 20px;
    font-weight: 700;
+}
+
+footer{
+   background-color: #000;
+   padding: 20px 40px;
+}
+footer .footer-container{
+   width: 90%;
+   max-height: 30%;
+   /* background-color: white; */
+   margin-left: 50px;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+footer .footer-container .logo {
+   padding-top: 20px;
+}
+footer .footer-container .logo img{
+   width: 53%;
+   margin-bottom: 20px;
+}
+footer .footer-container .logo p{
+   font-size: 15px;
+   margin-top: 5px;
+   color: #fff;
+}
+footer .footer-container .company{
+   padding-top: 20px;
+   padding-left: 40px;
+}
+footer .footer-container .company h3{
+   font-size: 20px;
+   font-weight: 700;
+   color: #fff;
+}
+footer .footer-container .company .links{
+   padding-top: 15px;
+ 
+}
+footer .footer-container .company .links p{
+   margin-top: 20px;
+   color: #fff;
+}
+footer .footer-container .legal{
+padding-top: 20px;
+   padding-left: 40px;
+}
+footer .footer-container .legal h3{
+   font-size: 20px;
+   font-weight: 700;
+   color: #fff;
+
+}
+footer .footer-container .legal .link2{
+   padding-top: 15px;
+}
+footer .footer-container .legal .link2 p{
+   margin-top: 20px;
+   color: #fff;
+
+}
+footer .footer-container .input{
+   padding-top: 20px; 
+   padding-left: 40px;
+   
+ 
+ 
+}
+footer .footer-container .input h3{
+   font-size: 20px;
+   font-weight: 700;
+   color: #fff;
+
+}
+footer .footer-container .input .email{
+   padding-top: 30px;
+
+}
+footer .footer-container .input .email input{
+   width: 300px;
+   height: 40px;
+   border-radius: 8px;
+   padding-left: 10px;
+}
+footer .footer-container .input button{
+   padding: 10px 10px;
+
 }
